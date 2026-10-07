@@ -6,8 +6,8 @@ println(displayWidth, displayHeight);
 int appWidth = displayWidth;
 int appHeight = displayHeight;
 //
-int paperWidth = 270;
-int paperHeight = 210;
+int paperWidth = 160;
+int paperHeight = 120;
 //
 float imageX = appWidth * 52 / paperWidth;
 float imageY = appHeight * 11 / paperHeight;
@@ -148,6 +148,27 @@ float doublerightWidth = appWidth * 5 / paperWidth;
 float doublerightHeight = appHeight * 10 / paperHeight;
 //
 rect(doublerightX, doublerightY,doublerightWidth,doublerightHeight);
+//
+float quieterX = appWidth * 55/ paperWidth;
+float quieterY = appHeight * 107 / paperHeight;
+float quieterWidth = appWidth * 4 / paperWidth;
+float quieterHeight = appHeight * 4 / paperHeight;
+//
+rect(quieterX, quieterY,quieterWidth,quieterHeight);
+//
+float volumeX = appWidth * 63/ paperWidth;
+float volumeY = appHeight * 105 / paperHeight;
+float volumeWidth = appWidth * 34 / paperWidth;
+float volumeHeight = appHeight * 7 / paperHeight;
+//
+rect(volumeX, volumeY,volumeWidth,volumeHeight);
+//
+float louderX = appWidth * 100/ paperWidth;
+float louderY = appHeight * 107 / paperHeight;
+float louderWidth = appWidth * 4 / paperWidth;
+float louderHeight = appHeight * 4 / paperHeight;
+//
+rect(louderX, louderY,louderWidth,louderHeight);
 /*
 rect(exitX, exitY, exitWidth, exitHeight);
 rect(listX, listY, listWidth, listHeight);
